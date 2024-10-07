@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  
+  /* Brand Color  */
+  --base_primary: "#3DCBB1";
+  --base_secondary: "#FFD130";
+
+   /* Color Shades  */
+   --shade_primary40: "#EC9792";
+   --shade_primary60: "#E56D67";
+   --shade_primary80: "#C42A22";
+   --shade_primary100: "#98211A";
+
+   /* Object Color */
+   --object_black90: "#1b1b1be6";
+   --object_black60: "#1b1b1b99";
+   --object_black30: "#1b1b1b4d";
+   --object_white90: "#f9f9f9e6";
+   --object_white60: "#f9f9f999";
+   --object_white30: "#f9f9f94d";
+
+  /* Alert Color */
+  --alert_error: "#FE416D";
+  --alert_warning: "#A04AE3";
+  --alert_success: "#00DDC0";
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
