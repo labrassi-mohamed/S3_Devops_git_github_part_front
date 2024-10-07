@@ -53,7 +53,7 @@ const products = [
   },
   {
     id: 9,
-    title: "Product 2",
+    title: "Product 21",
     price: 49.99,
     image: "/placeholder-product.jpg", 
   },
