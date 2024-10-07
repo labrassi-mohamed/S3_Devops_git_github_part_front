@@ -7,61 +7,61 @@ const products = [
     id: 1,
     title: "Product 1",
     price: 29.99,
-    image: "/placeholder-product.jpg", 
+    image: "/images/image2.jpg",  
   },
   {
     id: 2,
     title: "Product 2",
     price: 49.99,
-    image: "/placeholder-product.jpg", 
+    image: "/images/image3.jpg",  
   },
   {
     id: 3,
     title: "Product 3",
     price: 39.99,
-    image: "/placeholder-product.jpg", 
+    image: "/images/image4.jpg",  
   },
   {
     id: 4,
     title: "Product 4",
     price: 19.99,
-    image: "/placeholder-product.jpg", 
+    image: "/images/image1.jpg",  
   },
   {
     id: 5,
     title: "Product 1",
     price: 29.99,
-    image: "/placeholder-product.jpg", 
+    image: "/images/image1.jpg",  
   },
   {
     id: 6,
     title: "Product 2",
     price: 49.99,
-    image: "/placeholder-product.jpg", 
+    image: "/images/image4.jpg",  
   },
   {
     id: 7,
     title: "Product 3",
     price: 39.99,
-    image: "/placeholder-product.jpg", 
+    image: "/images/image1.jpg", 
   },
   {
     id: 8,
     title: "Product 4",
     price: 19.99,
-    image: "/placeholder-product.jpg", 
+    image: "/images/image2.jpg",  
   },
   {
     id: 9,
     title: "Product 21",
     price: 49.99,
-    image: "/placeholder-product.jpg", 
+    image: "/images/image3.jpg",  
   },
 ];
 
 const page = () => {
   return (
-    <div className="h-screen">
+    <div className="">
       <div className="max-w-7xl mx-auto p-6">
         <h1 className="text-3xl font-bold text-gray-800 mb-6">All Products</h1>
 
