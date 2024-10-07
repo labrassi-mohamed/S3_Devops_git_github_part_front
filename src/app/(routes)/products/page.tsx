@@ -34,21 +34,27 @@ const products = [
     image: "/placeholder-product.jpg", 
   },
   {
-    id: 5,
+    id: 6,
     title: "Product 2",
     price: 49.99,
     image: "/placeholder-product.jpg", 
   },
   {
-    id: 6,
+    id: 7,
     title: "Product 3",
     price: 39.99,
     image: "/placeholder-product.jpg", 
   },
   {
-    id: 7,
+    id: 8,
     title: "Product 4",
     price: 19.99,
+    image: "/placeholder-product.jpg", 
+  },
+  {
+    id: 9,
+    title: "Product 2",
+    price: 49.99,
     image: "/placeholder-product.jpg", 
   },
 ];
